@@ -3,9 +3,11 @@ import gsap from "gsap";
 import { Observer } from "gsap/all";
 import "./styles.css";
 
-import image1 from "./1.jpg";
-import image2 from "./2.jpg";
-import image3 from "./3.jpg";
+import image1 from "./thanksgiving1.jpeg";
+import image2 from "./thanksgiving3.webp";
+import image3 from "./thanksgiving4.webp";
+import image4 from "./thanksgiving2.jpeg";
+import image5 from "./thanksgiving6.jpeg";
 
 const gsapInit = () => {
   gsap.registerPlugin(Observer);
@@ -61,9 +63,12 @@ const gsapInit = () => {
 };
 
 const sections = [
-  { title: "Infinite", image: image1 },
-  { title: "Scrolling", image: image2 },
-  { title: "Website", image: image3 },
+  { title: "Are You Ready?", image: image1 },
+  { title: "For Thanksgiving 2023", image: image2 },
+  { title: "Shashi's House on November 25th", image: image3 },
+  {title: "Be There by 5pm", image: image5},
+  {title: "BYOB! :)", image: image4}
+  
 ];
 
 export const Parallax = () => {
